@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>payment</title>
+	<link rel="stylesheet" type="text/css" href="pm.css">
+ <script type="text/javascript">
+    function myfun(){
+      alert("TICKETS BOOKED SUCCESSFULLY");
+    }
+  </script>
+
+</head>
+<b>
+<ul>
+<li ><a href="home.html"><font color="red">HOME</font></a></li>
+
+<li><a href="football.html"><font color="red">football</font></a></li>
+<li><a href="cricket.html"><font color="red">cricket</font></a></li>
+<li class="active"><a href="signup.html"><font color="red">SIGN UP</font></a></li>
+<li><a href="login.html"><font color="red">LOGIN</font></a></li>
+</ul>
+</b>
+<body background="s2.jpg">
+	<h1>ONLINE SPORTS TICKET BOOKING SYSTEM</h1>
+<div class="card">
+	<h4>
+  PAYMENT AND BOOKING FORM</h4>
+  <div class="container">
+    <h4><b>BOOK TICKET</b></h4>
+    <div>
+    <label>NAME  :           </label>              <input type="text" class="nm"><br></div><div>
+    <label>tickets:             </label>          <input type="text" class="nm" placeholder="enter number of tickets"><br></div><div>
+  <label>Email  :           </label>              <input type="text" class="nm"><br>
+</select><br></div><div>
+    <label>Payment method:</label>       <select id="payment" name="payment">
+  <option value="cash">UPI</option>
+  <option value="card">PAYTM</option>
+ <option value="card">GPAY</option>
+ <option value="card">PhonePAY</option>
+ <option value="card">PAYPal</option>
+</select><br></div><div>
+    <label>Date and Time:</label>          <select id="timings" name="timings">
+  <option value="volvo">June-13,12:00A.M</option>
+  <option value="saab">June-20,3:00P.M</option>
+  <option value="fiat">June-26,6:00P.M</option>
+  <option value="audi">June-30,9:00P.M</option>
+</select></div>
+
+<br>
+<div>
+    <button type="submit" onclick="myfun()">BOOK NOW</button>
+    <br>
+  </div>
+</div>
+ 
+</body>
+</html>
